@@ -22,9 +22,9 @@ const AboutUs = () => {
               Over ons
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Ons team bestaat uit 3 medewerkers onder leiding van{" "}
+              Ons team bestaat uit 4 medewerkers onder leiding van{" "}
               <strong className="text-brand">Bram Bonhof</strong>. Bram
-              heeft al <strong className="text-brand">22 jaar ervaring</strong>{" "}
+              heeft al <strong className="text-brand">25 jaar ervaring</strong>{" "}
               in het verzorgen van katten en andere kleine huisdieren aan huis.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
