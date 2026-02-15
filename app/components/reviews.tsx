@@ -1,45 +1,39 @@
 const reviews = [
 	{
-		name: "Sarah de Vries",
+		name: "Irene Olde Bijvank",
 		rating: 5,
-		date: "2 weken geleden",
-		text: "Geweldige oppas! Mijn kat was super tevreden. Zeer betrouwbaar en liefdevol. Aanrader!",
+		text: "Bram en de meiden van de Dogrun hebben geweldig voor onze kat Poes gezorgd tijdens onze vakantie. Poes is een hele lieve maar ook een hele...",
 	},
 	{
-		name: "Jan Bakker",
+		name: "Dirk Olsthoorn",
 		rating: 5,
-		date: "1 maand geleden",
-		text: "Perfecte zorg voor mijn twee katten. Zeer professioneel en communicatief. Zeker weer gebruiken!",
+		text: "Al Jaren ons vertrouwde adres voor de vakanties. Heel blij mee! En onze katten Joep en Noortje ook.",
 	},
 	{
-		name: "Emma van der Berg",
+		name: "Louise Broek",
 		rating: 5,
-		date: "3 weken geleden",
-		text: "Mijn kat voelde zich meteen op zijn gemak. Zeer attent en zorgzaam. Top service!",
+		text: "Onze 4 poezenbeesten worden met liefde verzorgt door Bram van Dog-Run. Met een gerust hart kunnen wij op vakantie gaan! Elke dag krijgen...",
 	},
 	{
-		name: "Mark Jansen",
+		name: "Marjan Louwes",
 		rating: 5,
-		date: "2 maanden geleden",
-		text: "Uitstekende kattenoppas! Regelmatig updates en foto's. Mijn kat was super blij.",
+		text: "Heel tevreden over deze kattenoppas! Kreeg af en toe een filmpje toegestuurd op vakantie en dat vond ik fijn. Ook heeft Bram het kleed even gezogen ivm...",
 	},
 	{
-		name: "Lisa Smit",
+		name: "Yuri G",
 		rating: 5,
-		date: "1 maand geleden",
-		text: "Zeer tevreden! Professioneel, betrouwbaar en mijn kat werd perfect verzorgd.",
+		text: "Heel erg lief en betrouwbaar voor onze twee katten. Dit jaar voor de 2de keer gebruik gemaakt van deze geweldige service. Ik ben zeer tevreden. Ik heb...",
 	},
 	{
-		name: "Tom de Wit",
+		name: "Kelly van Roosmalen",
 		rating: 5,
-		date: "3 weken geleden",
-		text: "Fantastische ervaring. Mijn kat was helemaal niet gestrest toen ik terugkwam. Aanrader!",
+		text: "Al enkele jaren maken wij tijdens de vakantie gebruik van de kattenoppas van Dogrun. Onze katten kunnen dankzij de uitstekende verzorging van Bram...",
 	},
 ];
 
 const Reviews = () => {
 	return (
-		<section className="w-full bg-gray-50 py-16 md:py-24">
+		<section className="w-full bg-background py-16 md:py-24">
 			<div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
 				{/* Section Header */}
 				<div className="text-center mb-12">
@@ -72,7 +66,6 @@ const Reviews = () => {
 							<div className="flex items-center justify-between mb-4">
 								<div>
 									<h3 className="font-semibold text-foreground">{review.name}</h3>
-									<p className="text-sm text-gray-500">{review.date}</p>
 								</div>
 								<div className="flex">
 									{[...Array(review.rating)].map((_, i) => (
@@ -96,7 +89,7 @@ const Reviews = () => {
 				{/* Link to Google Reviews */}
 				<div className="text-center mt-12">
 					<a
-						href="https://g.page/r/YOUR_GOOGLE_REVIEWS_LINK"
+						href="https://www.google.com/maps/search/?api=1&query=Kattenoppas+Purmerend"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
