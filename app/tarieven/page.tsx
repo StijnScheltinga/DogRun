@@ -98,12 +98,12 @@ export default function Tarieven() {
 							</thead>
 							<tbody>
 								{[
-									"Dagelijkse bezoeken aan uw kat(ten)",
+									"Dagelijks bezoek",
 									"Voeding en vers water",
 									"Schone kattenbak",
 									"Aandacht en spel",
-									"Dagelijkse updates (foto's en berichten)",
-									"Diverse huishoudelijke taken",
+									"Dagelijkse contact via Whatsapp",
+									"Eindschoonmaak",
 								].map((item, i) => (
 									<tr
 										key={i}

@@ -16,30 +16,30 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/cat-on-couch.jpg"
+            src="/Cat-on-couch.jpg"
             alt="Cat"
             fill
             className="object-cover"
             priority
-            quality={70}
+            quality={75}
           />
           {/* Dark overlay for better text readability */}
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
         
         {/* Hero Content */}
         <div className="relative z-10 h-full flex items-center justify-center">
           <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-              Betrouwbare kattenoppas in Purmerend
+              Kattenoppas Purmerend
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-md">
-              Uw kat krijgt de beste zorg terwijl u weg bent
+            <p className="text-lg md:text-xl text-white/90 mb-8 drop-shadow-md">
+              Wij nemen de zorg over voor uw kat of andere kleine huisdieren 
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Link
                 href="/tarieven"
-                className="inline-block bg-white text-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition-opacity shadow-lg"
+                className="inline-block bg-background text-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition-opacity shadow-lg"
               >
                 Bekijk tarieven
               </Link>

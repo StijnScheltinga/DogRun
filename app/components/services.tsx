@@ -32,7 +32,7 @@ const services = [
     icon: <Flower2 size={iconSize} strokeWidth={iconStroke} />,
   },
   {
-    title: "Indien nodig stofzuigen",
+    title: "Eindschoonmaak",
     icon: <BrushCleaning size={iconSize} strokeWidth={iconStroke} />,
   },
 ];
@@ -42,13 +42,14 @@ const Services = () => {
     <section className="w-full bg-background pt-20 md:pt-30 pb-20">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-12">
+          {/* Kopje (niet permanent verwijderen) */}
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Zorgeloos van huis, wij zorgen voor alles
+            Onze diensten
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Bent u een dagje weg of op vakantie? Wij komen{" "}
-            <strong className="text-foreground">dagelijks</strong> langs om uw
-            huis en dieren liefdevol te verzorgen.
+            Bent u een weekendje weg, op vakantie of afwezig door een andere oorzaak? Wij komen{" "}
+            <strong className="text-foreground">1x per dag</strong> langs om uw
+            huis en dieren te verzorgen.
           </p>
         </div>
 

@@ -8,20 +8,20 @@ const iconSize = 32;
 const contactCards = [
   {
     title: "Telefoon",
-    value: "+31 6 12345678",
-    href: "tel:+31612345678",
+    value: "+31 6 26162015",
+    href: "tel:+31626162015",
     icon: <Phone size={iconSize} strokeWidth={1.5} />,
   },
   {
     title: "WhatsApp",
-    value: "+31 6 12345678",
-    href: "https://wa.me/31612345678",
+    value: "+31 6 26162015",
+    href: "https://wa.me/31626162015",
     icon: <MessageCircle size={iconSize} strokeWidth={1.5} />,
   },
   {
     title: "E-mail",
-    value: "info@kattenoppaspurmerend.nl",
-    href: "mailto:info@kattenoppaspurmerend.nl",
+    value: "bram.bonhof@gmail.com",
+    href: "mailto:bram.bonhof@gmail.com",
     icon: <Mail size={iconSize} strokeWidth={1.5} />,
   },
 ];

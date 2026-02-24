@@ -20,18 +20,19 @@ const steps = [
   },
   {
     number: "3",
-    title: "Updates via de app",
+    title: "Dagelijks contact via Whatsapp",
     description:
-      "We houden u via de app op de hoogte. Dit doen we via filmpjes en/of foto's.",
+      "We houden u via Whatsapp op de hoogte. Dit doen we via filmpjes en/of foto's.",
   },
 ];
 
 // Replace these with your own vertical/portrait images (e.g. /steps/1.jpg)
 const carouselImages = [
-  { src: "/2023-07-02.webp", alt: "foto 1" },
-  { src: "/2024-08-02.webp", alt: "foto 2" },
-  { src: "/2025-06-02.webp", alt: "foto 3" },
-  { src: "/2023-03-06.webp", alt: "foto 4"},
+  { src: "/IMG_9165.png", alt: "foto 1" },
+  { src: "/1a68fee0-ba23-491a-b4df-a7af70dce1c2.JPG", alt: "foto 2" },
+  { src: "/IMG_0471.png", alt: "foto 3" },
+  { src: "/IMG_5361.png", alt: "foto 4"},
+  { src: "/22eb4058-5e1d-4e66-b1b9-36427790810b.JPG", alt: "foto 5" },
 ];
 
 const Steps = () => {

@@ -27,9 +27,9 @@ const AboutUs = () => {
               heeft al <strong className="text-brand">25 jaar ervaring</strong>{" "}
               in het verzorgen van katten en andere kleine huisdieren aan huis.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in bibendum sapien. Morbi mattis, ipsum id mollis luctus, risus nunc tristique quam, quis commodo ipsum turpis eget massa. Cras fermentum neque sed mauris tincidunt ultrices. In feugiat egestas consectetur.
-            </p>
+            {/* <p className="text-lg text-gray-700 leading-relaxed">
+
+            </p> */}
           </div>
         </div>
       </div>
